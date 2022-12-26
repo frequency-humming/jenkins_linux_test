@@ -8,7 +8,7 @@
 
 <echo>${username}</echo>
 
-<sf:deploy username="${username}" password="${password}" serverurl="${sf.serverurl}" testlevel="NoTestRun" logtype="Detail" deployRoot="force-app/main/default"/>
+<sf:deploy username="${username}" password="${password}" serverurl="${sf.serverurl}" testlevel="NoTestRun" logtype="RunLocalTests" deployRoot="force-app/main/default"/>
 
 </target>
 
