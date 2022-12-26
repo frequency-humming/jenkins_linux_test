@@ -29,7 +29,7 @@ public with sharing class FileUploaderClass {
         return 'Invalid File Request';
     }
     if(contentId!=null){
-        String Path = '/data/v56.0/sobjects/ContentVersion/'+contentId+'/VersionData,';
+        String Path = '/services/data/v56.0/sobjects/ContentVersion/'+contentId+'/VersionData,';
         system.debug('path '+Path); 
         return path+filename;
     }else{
